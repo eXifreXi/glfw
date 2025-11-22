@@ -1,8 +1,8 @@
 project "GLFW"
     kind "StaticLib"
     language "C"
-    staticruntime "off"
-    warnings "off"
+    staticruntime "On"
+    warnings "Off"
 
     targetdir ("Binaries/" .. outputdir)
     objdir("Intermediate/" .. outputdir)
